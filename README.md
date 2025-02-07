@@ -4,8 +4,31 @@
 
 ## 概要
 - プリント基板製 USB Type-C リセプタクル
-- 基板厚：t=0.8mm
-- シェル部分が無いためケーブルに負荷がかかりやすく破損の恐れがあります。試験用としてご使用ください。
+- シェル部分が無いためケーブルに負荷がかかりやすく破損の恐れがあります。試験用、実験用としてご使用ください。
+
+## 外観
+![基板全体](/images/pcb-sheet.jpg)
+![子基板表面裏面](/images/pcb-piece.jpg)
+
+## スペック
+- シート(集合基板)サイズ：97.28 x 91.28
+- ピース(子基板)サイズ：10.16 x 12.7
+- 48ピース/1シート
+- 基板厚：0.8mm (製造可否は各プリント基板メーカーにお問い合わせください。)
+
+## KiCad設計データ
+- [回路図 (ブラウザで見る)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fsuzan-works%2FUSB-C_PCB_Receptacle%2Fblob%2Fmain%2Fkicad%2FUSB-C_PCB_Receptacle.kicad_sch)
+- [回路図 (PDF)](/kicad/USB-C_PCB_Receptacle.pdf)
+- [基板設計データ (ブラウザで見る)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fsuzan-works%2FUSB-C_PCB_Receptacle%2Fblob%2Fmain%2Fkicad%2FUSB-C_PCB_Receptacle.kicad_pcb)
+
+## 使用例
+- ブレッドボードやユニバーサル基板で、気軽にUSB-Cコネクタが使えます。
+- 抵抗5.1kΩを2個実装することで、USB PD 対応電源から簡単に5Vが得られます。
+(プルダウン抵抗5.1kΩをCC1, CC2に実装することで、USB PD仕様に基づいた5V供給を要求する信号が生成され、対応する電源から5Vが供給されます。)
+
+![使用例1](/images/usage-example-1.jpg)
+![使用例2](/images/usage-example-2.jpg)
+![使用例3](/images/usage-example-3.jpg)
 
 ## ライセンス
 [MIT License](https://opensource.org/licenses/MIT)
