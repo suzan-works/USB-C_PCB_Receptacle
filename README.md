@@ -33,6 +33,7 @@
 ## 参考
 - [CH552E Breakout - CH552Eブレークアウト](https://www.switch-science.com/products/8911) : USB Type-Cエッジコネクタを備えておりケーブルに直接接続可能なマイコンボード。WCH社製8ビットUSBマイコンCH552Eを搭載。
 - [Carduino クレジットカードサイズのフィジカルコンピュータ](https://bit-trade-one.co.jp/adakcadu/) : USB Type-Cコネクタ搭載でケーブル接続可能なマイコンボード。クレジットカードサイズのArduino UNO互換機。
+- [Carduino USB-C_PCBPLUG](https://github.com/akita11/Carduino/blob/master/Carduino_v41.pretty/USB-C_PCBPLUG.kicad_mod) : CarduinoのUSB Type-CコネクタのKiCadライブラリ。
 - [USB Implementers Forum 公式資料](https://www.usb.org/documents)  
 　"USB Type-C Cable and Connector Specification Release 2.4" > "Figure 3-1 USB Type-C Receptacle Interface Dimensions"
 
