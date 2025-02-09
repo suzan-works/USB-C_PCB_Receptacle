@@ -15,6 +15,7 @@
 - ピース(子基板)サイズ：10.16 x 12.7
 - 48ピース/1シート
 - 基板厚：0.8mm (製造可否は各プリント基板メーカーにお問い合わせください。)
+- 信号線：VBUS, GND, CC1, CC2, D+, D-
 
 ## KiCad設計データ
 - [回路図 (ブラウザで見る)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fsuzan-works%2FUSB-C_PCB_Receptacle%2Fblob%2Fmain%2Fkicad%2FUSB-C_PCB_Receptacle.kicad_sch)
